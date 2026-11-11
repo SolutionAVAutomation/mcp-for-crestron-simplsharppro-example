@@ -40,7 +40,7 @@
       <Version>2.21.110</Version>
     </PackageReference>
     <PackageReference Include="MCPForCrestron">
-      <Version>1.16.2</Version>
+      <Version>1.17.0</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
