@@ -1,8 +1,11 @@
-# MCP for Crestron: SIMPL# Pro example
+# RoomTalk for Crestron: SIMPL# Pro example
+
+RoomTalk for Crestron is the new name for MCP for Crestron. The library and its namespace
+(`MCPForCrestron`) are unchanged.
 
 A minimal SIMPL# Pro program that lets an AI assistant (Claude, or any client that speaks MCP)
 query and control a Crestron 4-Series processor in plain English, using the
-[MCPForCrestron](https://www.nuget.org/packages/MCPForCrestron) NuGet package.
+[RoomTalkForCrestron](https://www.nuget.org/packages/RoomTalkForCrestron) NuGet package.
 
 It simulates a small "Study" (a display, three lighting and blind levels, a source and a
 temperature sensor), so it runs on any 4-Series processor with nothing connected. In a real
@@ -17,7 +20,7 @@ program the write handlers drive your devices and the feedback comes from their 
 ## Build
 
 Open `MCPForCrestronExample/MCPForCrestronExample.csproj` in Visual Studio 2019 or later and build
-Release. NuGet restores `MCPForCrestron` and Crestron's `Crestron.SimplSharp.SDK.Program`. The build
+Release. NuGet restores `RoomTalkForCrestron` and Crestron's `Crestron.SimplSharp.SDK.Program`. The build
 writes `bin/Release/MCPForCrestronExample.cpz`.
 
 ## Load
@@ -65,7 +68,7 @@ the modules help inside the free modules download.
 
 ## Licence
 
-The example code is MIT licensed (see `LICENSE`). The MCPForCrestron library is proprietary and
+The example code is MIT licensed (see `LICENSE`). The RoomTalk for Crestron library is proprietary and
 licensed separately, per processor.
 
 Crestron is a registered trademark of Crestron Electronics, Inc. MCP for Crestron is a product of
